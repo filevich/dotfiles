@@ -97,3 +97,4 @@ export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Workspace/go
 export GOBIN=$HOME/Workspace/go/bin
 export GOWORKSPACE=$GOPATH/src/github.com/jpfilevich
+alias gowork='cd $GOWORKSPACE'
