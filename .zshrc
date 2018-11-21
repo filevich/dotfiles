@@ -93,6 +93,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# time command stats fortmat
+# more @ http://zsh.sourceforge.net/Doc/Release/Parameters.html
+export TIMEFMT='JOB:%J | real-time:%*E | CPU-percentage:%P | max-memory:%M KiB | #input-op:%I #output
+-op:%O'
+
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Workspace/go
 export GOBIN=$HOME/Workspace/go/bin
