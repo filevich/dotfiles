@@ -95,8 +95,7 @@ source $ZSH/oh-my-zsh.sh
 
 # time command stats fortmat
 # more @ http://zsh.sourceforge.net/Doc/Release/Parameters.html
-export TIMEFMT='JOB:%J | real-time:%*E | CPU-percentage:%P | max-memory:%M KiB | #input-op:%I #output
--op:%O'
+export TIMEFMT=$'\nJOB:\t\t%J\nreal-time:\t%*Es\nCPU-percentage:\t%P\nmax-memory:\t%M KiB\n#input-op:\t%I\n#output-op:\t%O\n'
 
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Workspace/go
