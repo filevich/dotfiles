@@ -4,6 +4,8 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/juan/.oh-my-zsh
 
+source ~/.bashrc >/dev/null 2>&1
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -97,8 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # more @ http://zsh.sourceforge.net/Doc/Release/Parameters.html
 export TIMEFMT=$'\nJOB:\t\t%J\nreal-time:\t%*Es\nCPU-percentage:\t%P\nmax-memory:\t%M KiB\n#input-op:\t%I\n#output-op:\t%O\n'
 
-export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Workspace/go
-export GOBIN=$HOME/Workspace/go/bin
-export GOWORKSPACE=$GOPATH/src/github.com/jpfilevich
-alias gowork='cd $GOWORKSPACE'
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
+
+alias py='python3'
