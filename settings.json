@@ -1,0 +1,16 @@
+// $HOME/.config/Code/User/settings.json
+{
+    "workbench.colorTheme": "Default Dark+",
+    "window.titleBarStyle": "custom",
+    "python.defaultInterpreterPath": "/home/jp/anaconda3/bin/python",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 12,
+    "jupyter.askForKernelRestart": false,
+    "editor.minimap.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.tabSize": 2,
+    "editor.rulers": [80],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    }
+}
