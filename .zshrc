@@ -104,3 +104,4 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
 alias py='python3'
+alias bench="/usr/bin/time -f 'TIME:%e RAM:%M\n'"
